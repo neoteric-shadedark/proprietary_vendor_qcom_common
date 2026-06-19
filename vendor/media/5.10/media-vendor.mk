@@ -14,8 +14,12 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/common/vendor/media/5.10/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy
 
 PRODUCT_PACKAGES += \
+    libAlacSwDec \
+    libApeSwDec \
     libEvrcSwCodec \
+    libFlacSwDec \
     libQcelp13SwCodec \
+    libdsd2pcm \
     libfastcrc \
     libqc2audio_base \
     libqc2audio_basecodec \
